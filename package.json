@@ -1,0 +1,24 @@
+{
+  "name": "ng-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daigof/starter-template.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fortes Diego",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.11.0",
+    "del": "^2.2.0",
+    "eslint": "^1.10.3",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
