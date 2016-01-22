@@ -8,7 +8,8 @@
     "url": "https://github.com/daigof/starter-template.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error1: no test specified\" && exit 1",
+    "x": "browser-sync start --server dist"
   },
   "author": "Fortes Diego",
   "license": "MIT",

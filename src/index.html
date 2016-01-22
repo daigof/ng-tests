@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 
 <head>
   <meta charset="utf-8">
   <title>NG - Tests</title>
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
-  <div id="container"></div>
-  <script src="all.js" charset="utf-8"></script>
+  <div id="container"><h1 ng-bind="prop1"></h1></div>
+  <script src="js/vendor/angular.js" charset="utf-8"></script>
+  <script src="js/all.js" charset="utf-8"></script>
 </body>
 
 </html>
