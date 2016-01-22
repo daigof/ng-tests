@@ -8,7 +8,29 @@
 </head>
 
 <body>
-  <div id="container"><h1 ng-bind="prop1"></h1></div>
+  <hr />
+  <h1 ng-bind="prop1"></h1>
+  <hr />
+  <my-dir info="prop1"></my-dir>
+  <hr /> Date format:
+  <input ng-model="format">
+  <hr/> Current time is:
+  <cur-time format="format">asdasdsdsad</cur-time>
+
+<br>
+<br>
+<br><hr>
+Bind Here should not change
+  <span ng-bind="diagName"></span>
+   <my-dialog>  <input ng-model="diagName"> <br/>Name inside transclusion: {{diagName}}!</my-dialog>
+
+
+
+   <br>
+   <br>
+   <br><hr>
+   <my-draggable>XXX</my-draggable>
+
   <script src="js/vendor/angular.js" charset="utf-8"></script>
   <script src="js/all.js" charset="utf-8"></script>
 </body>
